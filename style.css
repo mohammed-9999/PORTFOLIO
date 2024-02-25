@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    
+}
+.span{
+    color:red ;
+    
+    
+  
+    
+}
+a{
+   text-decoration: none;
+   
+}
+.btn{
+    background-color: red;
+    border: 0;
+    font-size: large;
+    font-weight: bold;
+    border-radius:20px;
+    padding:10px 20px;
+    width: max-content;
+    margin-bottom: 2vh;
+    box-shadow: rgba(255, 0, 0, 1) 10px 10px 100px  ;
+    
+}
+body{
+    background-color: rgb(0, 0, 0)
+}
+.content{
+      width: 90vw;
+      height: 100vh;
+      margin: auto;
+}
+header{
+    display:flex;
+    height:7vh;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid rgb(255, 0, 0) 2px;
+    border-radius: 7px;
+    background-color: black;
+    width:90%;
+    position:fixed;
+    
+}
+.logo{
+   
+    letter-spacing: 1px;
+    border-radius: 30px;
+   
+    border-right: solid red 1px;
+    padding: 10px;
+   
+   
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 7px;
+    padding: 10px;
+    transition: 0.7s;
+    border-radius: 30px;
+    
+}
+.logo:hover{
+    box-shadow: white 2px 2px 5px;
+}
+.menu ul li:hover{
+    
+    border: solid red 1px;
+   box-shadow: white 2px 2px 5px;
+   
+    
+    
+}
+.btn:hover{
+    box-shadow: white 2px 2px 5px;
+}
+
+
+.container{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 93vh;
+    padding: 5%;
+    
+   
+   
+}
+.left{
+   
+    width: 50%;
+  
+   
+   
+}
+.left .first_p {
+    font-size:small;
+    margin-bottom: 2vh;
+    
+   
+
+}
+.left p{
+    margin-bottom: 2vh;
+}
+.left .name{
+    font-size:4rem;
+    font-weight:bolder;
+    margin-bottom: 2vh;
+    
+}
+.left ul  img{
+    border-radius:100%;
+    box-shadow: rgba(255, 0, 0, 0.5) 10px 10px 100px  ;
+    margin-bottom: 2vh;
+    
+}
+
+
+
+.right{
+    width: 50%;
+    margin-left:50px;
+    
+
+}
+.right img{
+    width:95% ;
+    
+    
+}
+.our_services{
+    text-align: center;
+    margin-bottom: 10vh;
+    height: 8vhvh;
+    
+   
+  
+   
+}
+.our_services .services{
+    display: flex;
+    justify-content: space-between;
+    
+
+ 
+}
+.our_services .services div{
+    margin-top: 3vh;
+    padding: 20px 15px;
+    width: calc(30% - 10px);
+    height:70%;
+    transition: 0.7s;
+    border-radius: 20px;
+    border-right: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.09);
+    box-shadow: rgba(255, 0, 0, 0.151) 10px 10px 50px  ;
+  
+   
+}
+.our_services .services div:hover{
+    transform: scale(1.1) ;
+   
+    
+    box-shadow: rgba(255, 0, 0, 0.477) 1px 10px 10px;
+
+}
+.our_services :nth-child(1),.our_services  :nth-child(2){
+    margin-bottom: 4vh;
+}
+.frs_p{
+   
+    width: fit-content;
+   
+    
+    font-weight: bold;
+    font-size: x-large;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+   border-radius: 20px;
+    margin-bottom: 2vh;
+    letter-spacing: 2px;
+   border-radius: 10px;
+   border-bottom: solid red 1px;
+  
+    
+}
+.sec_p{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: start;
+   
+
+    
+}
+
+
+.protofolio{
+    height:50vh;
+    margin-bottom: 10vh;
+   
+  
+}
+.protofolio p,.protofolio h2{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-bottom: 3vh;
+    
+
+}
+.protofolio img{
+    width:32%;
+    height:60%;
+    border-radius: 20px;
+    transition: .7s;
+    box-shadow: rgba(255, 0, 0, 0.1) 4px 4px 100px  ;
+    border-radius: 30px;
+   border-bottom: solid red 1px;
+    
+}
+.protofolio img:hover{
+    transform: scale(1.2);
+    box-shadow: rgb(255, 0, 0) 1px 1px 5px;
+    
+}
+.contact_us{
+    margin-bottom: 10vh;
+    height: 80vh;
+    margin-bottom:10vh;
+    
+    
+   
+}
+.contact_us h2,.contact_us p{
+    text-align: center;
+    margin-bottom: 4vh;
+    
+}
+.contact_us form{
+   
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    border-right: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.09);
+    box-shadow: rgba(255, 0, 0, 0.151) 10px 10px 50px  ;
+    
+}
+input{
+    height:40px;
+    
+}
+textarea{
+    height:150px;
+    padding: 10px;
+}
+.contact_us button{
+    display: block;
+    margin:10px auto;
+}
+.contact_us input ,.contact_us textarea,.contact_us label{
+    margin:10px auto;
+    
+    display: block;
+   
+    
+    width: 80%;
+   
+    
+    
+}
+.contact_us input ,.contact_us textarea{
+    background-color: black;
+    border: 0;
+    border-radius: 30px;
+   border-bottom: solid red 1px;
+    
+   
+}
+footer{
+    display: block;
+    height: 15vh;
+    text-align: center;
+    border-radius: 30px;
+    border-top: solid red 1px;
+    padding: 10px;
+    
+   
+}
+footer ul  img{
+    border-radius:100%;
+    box-shadow: rgba(255, 0, 0, 0.5) 10px 10px 100px  ;
+    margin-bottom: 2vh;
+    
+}
+
+
+
